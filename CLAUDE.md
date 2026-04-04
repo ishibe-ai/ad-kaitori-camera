@@ -1,7 +1,7 @@
 # カメラ買取比較記事LP
 
 ## ステータス: テスト版デプロイ済み → デザイン改善中
-- URL: https://ad-kaitori-camera.vercel.app
+- URL: https://camera-kaitori.vercel.app
 - GitHub: https://github.com/ishibe-ai/ad-kaitori-camera
 
 ## 概要
