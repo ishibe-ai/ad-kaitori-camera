@@ -2187,17 +2187,17 @@ a {
 
 /* ===== モバイルレスポンシブ修正 ===== */
 
-/* 横スクロール防止 */
+/* 横スクロール防止（clipはstickyを壊さない） */
 html {
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
 }
 body {
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
   max-width: 100vw !important;
   width: 100% !important;
 }
 #container {
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
 }
 img {
   max-width: 100%;
