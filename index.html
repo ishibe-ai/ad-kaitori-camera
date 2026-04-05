@@ -989,15 +989,21 @@ a {
 .lp-hikaku .hikaku-table table th {
   width: 19%;
   padding: 8px 4px 8px 0;
-  border: 1px solid white;
+  border: none;
+  border-bottom: 1px solid white;
   background-color: #28A6DE;
   color: white;
   font-weight: bold;
 }
 .lp-hikaku .hikaku-table table td {
   width: 27%;
-  border: 1px dashed #28A6DE;
+  border: none;
+  border-bottom: 1px dashed #28A6DE;
+  border-right: 1px dashed #28A6DE;
   background-color: white;
+}
+.lp-hikaku .hikaku-table table td:last-child {
+  border-right: none;
 }
 .lp-hikaku .hikaku-table table .t-rank {
   padding: 4px 0 8px;
