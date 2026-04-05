@@ -1015,6 +1015,21 @@ a {
 .lp-hikaku .hikaku-table table .t-rank img {
   width: 20px;
 }
+.lp-hikaku .hikaku-table table thead th,
+.lp-hikaku .hikaku-table table thead td {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.lp-hikaku .hikaku-table table .t-score,
+.lp-hikaku .hikaku-table table .t-text {
+  font-size: 12px;
+  line-height: 1.4;
+}
+.lp-hikaku .hikaku-table table .t-score .small,
+.lp-hikaku .hikaku-table table .t-text .small {
+  font-size: 10px;
+}
 .lp-hikaku .hikaku-table table .t-brand {
   padding: 8px 4px;
 }
@@ -2345,6 +2360,7 @@ $(function(){
     </h2>
     <div class="hikaku-table">
     <table>
+        <thead>
         <tr>
             <th rowspan="2"></th>
             <td class="t-rank rank1">
@@ -2404,6 +2420,8 @@ $(function(){
                 </div>
             </td>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <th>買取方法</th>
             <td class="t-score">
@@ -2412,11 +2430,11 @@ $(function(){
             </td>
             <td class="t-score">
                 <img src="camera-assets/score3.png">
-                <div class="mt-4px">出張・宅配・店頭<div class="small">（出張は一部地域）</div></div>
+                <div class="mt-4px">出張・宅配・店頭<div class="small">（出張は一部地域限定）</div></div>
             </td>
             <td class="t-score">
                 <img src="camera-assets/score3.png">
-                <div class="mt-4px">宅配・出張・店頭<div class="small">（出張は関東・北陸）</div></div>
+                <div class="mt-4px">宅配・出張・店頭<div class="small">（出張は一部地域限定）</div></div>
             </td>
         </tr>
         <tr>
@@ -2447,6 +2465,7 @@ $(function(){
             <td class="t-score">
                 <img src="camera-assets/score3.png">
                 <div class="mt-4px">送料無料<div class="small">（返送料は自己負担）</div></div>
+
             </td>
         </tr>
         <tr>
@@ -2468,7 +2487,7 @@ $(function(){
             <th>対応ブランド</th>
             <td class="t-score">
                 <img src="camera-assets/score4.png">
-                <div class="mt-4px"><b>全メーカー対応</b><div class="small">（Canon, Nikon, Sony等）</div></div>
+                <div class="mt-4px"><b>全メーカー対応</b><div class="small">（Canon, Nikon等）</div></div>
             </td>
             <td class="t-score">
                 <img src="camera-assets/score4.png">
@@ -3019,6 +3038,7 @@ $(function(){
     </h2>
     <div class="hikaku-table">
     <table>
+        <thead>
         <tr>
             <th rowspan="2"></th>
             <td class="t-rank rank1">
@@ -3078,6 +3098,8 @@ $(function(){
                 </div>
             </td>
         </tr>
+        </thead>
+        <tbody>
         <tr>
             <th>買取方法</th>
             <td class="t-score">
@@ -3086,11 +3108,11 @@ $(function(){
             </td>
             <td class="t-score">
                 <img src="camera-assets/score3.png">
-                <div class="mt-4px">出張・宅配・店頭<div class="small">（出張は一部地域）</div></div>
+                <div class="mt-4px">出張・宅配・店頭<div class="small">（出張は一部地域限定）</div></div>
             </td>
             <td class="t-score">
                 <img src="camera-assets/score3.png">
-                <div class="mt-4px">宅配・出張・店頭<div class="small">（出張は関東・北陸）</div></div>
+                <div class="mt-4px">宅配・出張・店頭<div class="small">（出張は一部地域限定）</div></div>
             </td>
         </tr>
         <tr>
@@ -3121,6 +3143,7 @@ $(function(){
             <td class="t-score">
                 <img src="camera-assets/score3.png">
                 <div class="mt-4px">送料無料<div class="small">（返送料は自己負担）</div></div>
+
             </td>
         </tr>
         <tr>
@@ -3142,7 +3165,7 @@ $(function(){
             <th>対応ブランド</th>
             <td class="t-score">
                 <img src="camera-assets/score4.png">
-                <div class="mt-4px"><b>全メーカー対応</b><div class="small">（Canon, Nikon, Sony等）</div></div>
+                <div class="mt-4px"><b>全メーカー対応</b><div class="small">（Canon, Nikon等）</div></div>
             </td>
             <td class="t-score">
                 <img src="camera-assets/score4.png">
@@ -3198,6 +3221,7 @@ $(function(){
                 </a>
             </td>
         </tr>
+        </tbody>
     </table>
 </div>
 
